@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.navblack{
+    height: 70px;
+    position: fixed;
+    top: 0;
+}
+
+.navbarlinks{
+    margin-left: -10px;
+}
+
+.navbarlinks a{
+    color: white;
+}
+.navbarlinks a:hover{
+    color: rgb(236,0,191);
+}
+.navbarlinks li{
+    margin: 0 12px;
+}
+.navbarlinks button{
+    width: 160px;
+    height: 45px;
+    color: white;
+    font-size: 15px;
+    background-color:  rgb(236,0,191);
+    border-radius: 12px;
+    border: none;
+    margin-left: 10px;
+}
+
+.socialicons{
+    background-color: black;
+}
+.toglebutton{
+    background-color:  rgb(236,0,191);
+}
+
+
+.pinktext{
+    color: rgb(236,0,191);
+}
+
+.hero1{
+    height: 98vh;
+    width: 100%;
+}
+.hero1 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.hero1 h1{
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.hero1 button{
+    width: 250px;
+    height: 45px;
+    color: rgb(236,0,191);
+    background-color: black;
+    border-radius: 10px;
+    transition: .3s;
+    border: 2px solid rgb(236,0,191);
+}
+
+.hero1 button:hover{
+    color: white;
+    background-color: rgb(236,0,191);
+}
+
+
+.hero2{
+    padding-top: 100px;
+}
+
+.hero2 h2{
+    font-weight: 700;
+}
+.hero2 p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.headsetguy{
+    margin-top: -50px;
+}
+
+video{
+    width: 100%;
+    height: 700px;
+}
+
+
+.cardsdiv button{
+    width: 160px;
+    height: 45px;
+    color: rgb(236,0,191);
+    background-color: black;
+    border-radius: 10px;
+    transition: .3s;
+    border: 2px solid rgb(236,0,191);
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.cardsdiv button:hover{
+    color: white;
+    background-color: rgb(236,0,191);
+}
+
+
+
+
+
+
+
+.card1{
+    height: 330px;
+    width: 49%;
+    background-image: url(./images/earn_tile.jpg);
+    background-size: cover;
+    border: 2px solid rgb(58, 58, 58);
+    border-radius: 20px;
+}
+.card1 p{
+    font-size: 18px;
+}
+.card1 i{
+    font-size: 35px;
+    margin-left: 200px;
+}
+
+
+
+.card2{
+    height: 330px;
+    width: 49%;
+    background-image: url(./images/play_tile.jpg);
+    background-size: cover;
+    border: 2px solid rgb(58, 58, 58);
+    border-radius: 20px;
+}
+.card2 p{
+    font-size: 18px;
+}
+.card2 i{
+    font-size: 35px;
+    margin-left: 200px;
+}
+
+
+
+.card3{
+    height: 330px;
+    width: 49%;
+    background-image: url(./images/dao_tile.jpg);
+    background-size: cover;
+    border: 2px solid rgb(58, 58, 58);
+    border-radius: 20px;
+}
+.card3 p{
+    font-size: 18px;
+}
+.card3 i{
+    font-size: 35px;
+    margin-left: 200px;
+}
+
+
+
+.card4{
+    height: 330px;
+    width: 49%;
+    background-image: url(./images/nft_tile.jpg);
+    background-size: cover;
+    border: 2px solid rgb(58, 58, 58);
+    border-radius: 20px;
+}
+.card4 p{
+    font-size: 18px;
+}
+.card4 i{
+    font-size: 35px;
+    margin-left: 200px;
+}
+
+
+
+
+
+
+.footer{
+    background-color: rgb(23,23,23);
+    border-top: 2px solid rgb(53,53,53);
+}
+
+.footer a{
+    color: rgb(236,0,191);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer i{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.footer i:hover{
+    color: rgb(236,0,191);
+}
+
+.footer p{
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+#copyright{
+    font-size: 16px;
+    color: white;
+    margin: 30px 0;
+}
